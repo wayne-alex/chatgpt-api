@@ -4,7 +4,7 @@ import express from 'express';
 import { initializeBot, sendMessage, page, isBotReady } from './index.js';
 
 const app = express();
-const port = 3000;
+const port = 2001;
 
 app.use(express.json());
 
